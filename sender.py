@@ -1,4 +1,4 @@
-# sender.py  (client)
+# CLIENT
 # Sends area code, each nominee with total votes, and total eligible voters
 # Every value is sent as its own message with a CRC attached
 import random
@@ -8,7 +8,7 @@ from crc_module import encode_data
 
 # Settings matching with receiver
 HOST = '127.0.0.1'   # sender connects to ip address
-PORT = 65432         # port
+PORT = 65432         
 SHARED_KEY = "1001"  # CRC divisor key (x^3 + 1)
 
 def ask_text(prompt):

@@ -1,4 +1,4 @@
-# receiver.py  (server)
+# SERVER
 # Checks the CRC of every value, adds the votes, and replies with a status message
 # If any value has an error, all data from the sender is disregarded
 import socket
@@ -7,7 +7,7 @@ from crc_module import mod2div
 
 # Settings matching with sender
 HOST = '127.0.0.1'   # receiver binds or listens to this ip address
-PORT = 65432         # port
+PORT = 65432        
 SHARED_KEY = "1001"  # CRC divisor key (x^3 + 1)
 
 def decode_codeword(bits, key):
