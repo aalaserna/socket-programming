@@ -1,3 +1,6 @@
+# ANDREA A. LASERNA
+# CMSC 137
+
 # SERVER
 # Checks the CRC of every value, adds the votes, and replies with a status message
 # If any value has an error, all data from the sender is disregarded

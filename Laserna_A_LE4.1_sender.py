@@ -1,3 +1,6 @@
+# ANDREA A. LASERNA
+# CMSC 137
+
 # CLIENT
 # Sends area code, each nominee with total votes, and total eligible voters
 # Every value is sent as its own message with a CRC attached
